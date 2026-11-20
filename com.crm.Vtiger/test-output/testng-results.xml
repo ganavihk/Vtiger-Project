@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[database connected successfully]]>
+    </line>
+    <line>
+      <![CDATA[launched browser and nav to vtiger]]>
+    </line>
+    <line>
+      <![CDATA[logged in successfully]]>
+    </line>
+    <line>
+      <![CDATA[logged out successfully]]>
+    </line>
+    <line>
+      <![CDATA[browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[database disconnected]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-11-18T17:41:47 IST" name="Failed suite [Failed suite [Default suite]]" finished-at="2026-11-18T17:42:05 IST" duration-ms="18795">
+    <groups>
+    </groups>
+    <test started-at="2026-11-18T17:41:47 IST" name="Default test(failed)(failed)" finished-at="2026-11-18T17:42:05 IST" duration-ms="18795">
+      <class name="com.vtiger.OrganizationTest.CreateOrganization">
+        <test-method is-config="true" signature="ConnecttoDatabase()[pri:0, instance:com.vtiger.OrganizationTest.CreateOrganization@4b2bac3f]" started-at="2026-11-18T17:41:47 IST" name="ConnecttoDatabase" finished-at="2026-11-18T17:41:47 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[database connected successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ConnecttoDatabase -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.vtiger.OrganizationTest.CreateOrganization@4b2bac3f]" started-at="2026-11-18T17:41:47 IST" name="launchBrowser" finished-at="2026-11-18T17:41:51 IST" duration-ms="3531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[launched browser and nav to vtiger]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginTovtiger()[pri:0, instance:com.vtiger.OrganizationTest.CreateOrganization@4b2bac3f]" started-at="2026-11-18T17:41:51 IST" name="loginTovtiger" finished-at="2026-11-18T17:41:54 IST" duration-ms="3486" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logged in successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTovtiger -->
+        <test-method signature="createorg()[pri:0, instance:com.vtiger.OrganizationTest.CreateOrganization@4b2bac3f]" started-at="2026-11-18T17:41:54 IST" name="createorg" finished-at="2026-11-18T17:42:04 IST" duration-ms="9781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createorg -->
+        <test-method is-config="true" signature="logutfromvtiger()[pri:0, instance:com.vtiger.OrganizationTest.CreateOrganization@4b2bac3f]" started-at="2026-11-18T17:42:04 IST" name="logutfromvtiger" finished-at="2026-11-18T17:42:05 IST" duration-ms="840" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logged out successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logutfromvtiger -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vtiger.OrganizationTest.CreateOrganization@4b2bac3f]" started-at="2026-11-18T17:42:05 IST" name="closeBrowser" finished-at="2026-11-18T17:42:05 IST" duration-ms="499" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="disconnetwithdatabase()[pri:0, instance:com.vtiger.OrganizationTest.CreateOrganization@4b2bac3f]" started-at="2026-11-18T17:42:06 IST" name="disconnetwithdatabase" finished-at="2026-11-18T17:42:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[database disconnected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- disconnetwithdatabase -->
+      </class> <!-- com.vtiger.OrganizationTest.CreateOrganization -->
+    </test> <!-- Default test(failed)(failed) -->
+  </suite> <!-- Failed suite [Failed suite [Default suite]] -->
+</testng-results>
